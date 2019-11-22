@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,36 +9,20 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints">
-
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/LikeButton"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/combo"
-            android:text="Welcome to Kong"
-            android:textAlignment="center"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp">
 
 
         <EditText
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView2"
+            android:layout_below="@+id/LikeButton"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="29dp"
+            android:layout_marginTop="91dp"
             android:ems="10"
-            android:hint="email address ..."
+            android:hint="Email address ..."
             android:inputType="textEmailAddress"
             app:layout_constraintBottom_toTopOf="@+id/password"
             tools:layout_editor_absoluteX="85dp" />
@@ -47,36 +31,16 @@
             android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/email"
             android:layout_below="@+id/email"
+            android:layout_alignStart="@+id/email"
             android:layout_marginTop="13dp"
             android:ems="10"
             android:fontFamily="@font/combo"
-            android:hint="password ..."
+            android:hint="Password ..."
             android:inputType="textPassword"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="85dp" />
 
-
-        <ImageView
-            android:id="@+id/registerButton"
-            android:layout_width="120dp"
-            android:layout_height="100dp"
-            android:layout_below="@+id/password"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/signup"
-            android:onClick="createAccount"/>
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/registerButton"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp"
-            android:fontFamily="@font/combo"
-            android:onClick="changeAct"
-            android:text=" Login Here" />
 
         <TextView
             android:id="@+id/forgetTV2"
@@ -84,34 +48,45 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView6"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="6dp"
             android:fontFamily="@font/combo"
             android:onClick="reset"
             android:text="Forget password?" />
 
         <ImageView
             android:id="@+id/LikeButton"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="216dp"
+            android:layout_height="216dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="54dp"
-            android:src="@drawable/splash" />
+            android:src="@drawable/splash2" />
 
-        <ImageView
-            android:id="@+id/imageView5"
+        <Button
+            android:id="@+id/registerButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/password"
-            android:layout_marginBottom="0dp"
-            android:layout_marginRight="0dp"
-            android:layout_marginStart="13dp"
-            android:layout_marginTop="61dp"
-            android:layout_toEndOf="@+id/registerButton"
-            android:onClick="anonymousLogin"
-            android:src="@drawable/lookaround" />
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="163dp"
+            android:onClick="createAccount"
+            android:text="Sign up" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/combo"
+            android:onClick="changeAct"
+            android:text=" Log In" />
 
 
     </RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

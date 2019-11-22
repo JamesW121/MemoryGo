@@ -9,68 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="10dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="KONG MEMBERS"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20dp"
-            android:layout_marginTop="100dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Jianang Wang"
-            android:textAlignment="center"
-            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="JianangWang@umail.ucsb.edu"
-            android:textAlignment="center"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Xiao Sun"
-            android:textAlignment="center"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="xiao_sun@umail.ucsb.edu"
-            android:textAlignment="center"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Zizhuo Lin"
-            android:textAlignment="center"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="zizhuo_lin@umail.ucsb.edu"
-            android:textAlignment="center"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Zeyu Zhu"
-            android:textAlignment="center"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="zizhuo@umail.ucsb.edu"
-            android:textAlignment="center"/>
-
-    </LinearLayout>
+        android:layout_margin="10dp"/>
 
 </FrameLayout>

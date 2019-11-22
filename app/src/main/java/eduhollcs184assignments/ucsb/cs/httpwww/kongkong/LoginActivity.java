@@ -1,8 +1,11 @@
 package eduhollcs184assignments.ucsb.cs.httpwww.kongkong;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -11,6 +14,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -48,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void signIn(View view) {
 
-        ImageView login = (ImageView) findViewById(R.id.buttonSignin);
+        Button login = (Button) findViewById(R.id.buttonSignin);
         final Animation myAnim = AnimationUtils.loadAnimation(LoginActivity.this, R.anim.bounce);
 
         // Use bounce interpolator with amplitude 0.2 and frequency 20

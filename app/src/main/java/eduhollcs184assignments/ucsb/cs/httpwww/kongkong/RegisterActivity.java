@@ -3,7 +3,6 @@ package eduhollcs184assignments.ucsb.cs.httpwww.kongkong;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -22,6 +21,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import androidx.annotation.NonNull;
+
 import static android.content.ContentValues.TAG;
 
 public class RegisterActivity extends Activity {
@@ -29,7 +30,7 @@ public class RegisterActivity extends Activity {
     private FirebaseAuth mAuth;
     private EditText password;
     private EditText email;
-    private ImageView button;
+    private Button button;
     private String myEmail;
     public static Toast myToast;
     private FirebaseAuth.AuthStateListener mAuthListener;
@@ -49,7 +50,7 @@ public class RegisterActivity extends Activity {
         mAuth = FirebaseAuth.getInstance();
         password = (EditText) findViewById(R.id.password);
         email = (EditText) findViewById(R.id.email);
-        button = (ImageView) findViewById(R.id.registerButton);
+        button = (Button) findViewById(R.id.registerButton);
 
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints">
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/relativeLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -36,9 +36,9 @@
                 android:id="@+id/allpost"
                 android:layout_width="126dp"
                 android:layout_height="126dp"
-                android:layout_marginEnd="32dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="288dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginEnd="32dp"
                 android:onClick="AllPost"
                 app:layout_constraintEnd_toStartOf="@+id/mypost"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -50,7 +50,8 @@
                 android:id="@+id/mypost"
                 android:layout_width="217dp"
                 android:layout_height="192dp"
-                android:layout_marginEnd="8dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="16dp"
                 android:onClick="myPost"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addimage"
@@ -60,16 +61,18 @@
                 android:id="@+id/addimage"
                 android:layout_width="0dp"
                 android:layout_height="173dp"
+                android:layout_marginTop="108dp"
                 android:onClick="logo"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/splash2" />
 
-                app:srcCompat="@drawable/splash" />
 
-
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
