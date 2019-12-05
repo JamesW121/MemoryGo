@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kong</string>
+    <string name="app_name">MemoryGo!</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -29,11 +29,9 @@
 
     <string-array name="choices">
         <item>Please select a topic...</item>
-        <item>Luggage Storage</item>
-        <item>Parking</item>
-        <item>Pet Fosterage</item>
-        <item>Short-Term Lease</item>
-        <item>Bike/Car Rental</item>
+        <item>Food</item>
+        <item>Travel</item>
+        <item>Attraction</item>
         <item>Others</item>
     </string-array>
 
@@ -43,6 +41,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

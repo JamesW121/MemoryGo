@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="4dp">
@@ -22,63 +23,28 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
+                android:text="category"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="10sp"
-                android:text="category" />
-
-            <TextView
-                android:id="@+id/post_title"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/post_category"
-                android:text="title"
-                android:textSize="20dp" />
-
-            <TextView
-                android:id="@+id/post_location"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/post_title"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="10sp"
-                android:text="location"/>
-
-            <TextView
-                android:id="@+id/post_email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/post_location"
-                android:textColor="@android:color/darker_gray"
-                android:layout_marginEnd="20dp"
-                android:textSize="10sp"
-                android:text="email"/>
+                android:textSize="20sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
-                android:orientation="horizontal">
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" />
 
-                <ImageButton
-                    android:id="@+id/imageButton3"
-                    style="@android:style/Widget.Holo.Light.ImageButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ic_thumb_up_black_24dp" />
-
-                <TextView
-                    android:id="@+id/card_like_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical|center_horizontal"
-                    android:text="0" />
-
-            </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="383dp"
+                android:layout_height="168dp"
+                android:layout_below="@+id/post_category"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="4dp"
+                tools:srcCompat="@tools:sample/avatars[1]" />
 
         </RelativeLayout>
 

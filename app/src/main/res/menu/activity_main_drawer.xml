@@ -5,39 +5,22 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_luggage"
+            android:id="@+id/nav_food"
             android:icon="@drawable/ic_black_luggage"
-            android:title="Luggage Storage" />
+            android:title="Food" />
         <item
-            android:id="@+id/nav_parking"
+            android:id="@+id/nav_travel"
             android:icon="@drawable/ic_black_parking"
-            android:title="Parking Lot" />
+            android:title="Travel" />
         <item
-            android:id="@+id/nav_pets"
+            android:id="@+id/nav_attraction"
             android:icon="@drawable/ic_black_pets"
-            android:title="Pets Fosterage" />
-        <item
-            android:id="@+id/nav_lease"
-            android:icon="@drawable/ic_black_lease"
-            android:title="Short-Term Lease" />
-        <item
-            android:id="@+id/nav_rental"
-            android:icon="@drawable/ic_black_rental"
-            android:title="Bike/Car Rental" />
+            android:title="Attraction" />
         <item
             android:id="@+id/nav_other"
             android:icon="@drawable/ic_black_other"
-            android:title="Other Topics" />
+            android:title="Others" />
 
     </group>
-
-    <item android:title="T e a m    K o n g">
-        <menu>
-            <item
-                android:id="@+id/nav_about"
-                android:icon="@drawable/ic_black_about"
-                android:title="About" />
-        </menu>
-    </item>
 
 </menu>

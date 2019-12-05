@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/memorygo.iml" filepath="$PROJECT_DIR$/memorygo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kongkong.iml" filepath="$PROJECT_DIR$/kongkong.iml" />
     </modules>
   </component>
 </project>

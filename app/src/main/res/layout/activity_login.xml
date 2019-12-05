@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="eduhollcs184assignments.ucsb.cs.httpwww.kongkong.LoginActivity">
+    tools:context="CornellTechStudio.cornell.cm.JamesW.memorygo.LoginActivity">
 
 
     <RelativeLayout
@@ -52,7 +52,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="@font/combo"
             android:onClick="changeAct"
-            android:text=" Sign Up" />
+            android:text="Sign Up" />
 
         <TextView
             android:id="@+id/forgetTV"
@@ -81,14 +81,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/editTextPassword"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_centerInParent="true"
             android:layout_marginStart="158dp"
             android:layout_marginTop="38dp"
             android:layout_marginEnd="165dp"
             android:onClick="signIn"
-            android:text="Log In" />
+            android:singleLine="true"
+            android:text="@string/title_activity_login" />
 
 
     </RelativeLayout>
